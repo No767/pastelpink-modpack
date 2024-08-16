@@ -37,4 +37,4 @@ html_theme_options = {
     },
 }
 
-ogp_site_url = "https://catherine-chan.readthedocs.io"
+ogp_site_url = "https://pastelpink-modpack.readthedocs.io"
