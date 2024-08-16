@@ -1,0 +1,13 @@
+name = "Pastelpink"
+author = "No767"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "97328dc506d5be78f92edd669607d6e13cc238374e8d7850bb6f1c9162e8ad49"
+
+[versions]
+minecraft = "1.20.6"
+quilt = "0.26.4-beta.1"

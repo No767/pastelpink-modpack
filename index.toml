@@ -1,0 +1,71 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "8e176ca733dd7d87e420d4f5cf180289da6ca2c72ebf7039dce7713db58828ae"
+metafile = true
+
+[[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "78f2ca6b98277a386dc71645e6e2b8be452b2ed917fa575b604bae77c6d069d3"
+metafile = true
+
+[[files]]
+file = "mods/blahaj_fabric.pw.toml"
+hash = "940ac117ecf8a45726e4c16bf3b3962472733fbe0a2d7d72a7cfb7fb2dddbee2"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "7daaf5396b373745929024fc9be8e257efd19ba701d8b24bb4b184fb3656e0b8"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes.pw.toml"
+hash = "1937820398cd2a46179953923574a5247e3a23ff30e6db42890d64c964ea3f55"
+metafile = true
+
+[[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "f3089373817a11ea61ba19b742064f74a21cb2974f49e9f20ab3f42671fdc621"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "f37f5fd3fda8611c289c24ea9ba0e9e9619e9480020d292309c20a08cba64baf"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "15af904cfeb2ee20ba0c865bae42dcc7eaea31b18bde9e9f5fb4e4192185566f"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "d583bd657e0002a079dad8b69c72d33ff5055f24dce5761be86378299c13673f"
+metafile = true
+
+[[files]]
+file = "mods/qsl.pw.toml"
+hash = "f720ff14754b9b1a0bfc9e32438f971cd0f6841f1ff49c885154aed59a9bc1af"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "7e8aa0c72efa24bc84206efddef4ba508ac2f7d572f6235b285a53568c3b5d70"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "d87b6b7567ed68eb8c4db3406c84c2417beb58dc630f2f1507b85294f5c5cdcf"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "8fa876040c642ee78f3b835aa5273daad3a2817ee86ec5975d103a240da9648e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "08d3dd914a003e402612bfeb60bcb31e5060d07058be7c691faa44413c182f57"
+metafile = true

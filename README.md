@@ -1,0 +1,19 @@
+# Pastelpink Modpack
+
+Private modpack for Pastelpink Minecraft server
+
+> [!IMPORTANT]
+> This modpack is **only** available on GitHub and Modrinth. Pastelpink works as an Modrinth modpack.
+
+## What is this Modpack?
+
+This modpack is a private modpack between I (Noelle) and friends. In order to make mod distribution easier,
+this modpack is created to aid with that goal. Pastelpink is centralized around exploration, thus
+the inclusion of many world generation and exploration focused mods.
+
+## Installation
+
+Pastelpink is distributed here on GitHub, under the "Releases" section. Download the modpack listed in the downloads
+and install it into either [Prism Launcher](https://prismlauncher.org/) or the [Modrinth Launcher](https://modrinth.com/app).
+
+Further instructions can be found in the [documentation](...)

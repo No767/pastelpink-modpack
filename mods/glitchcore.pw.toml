@@ -1,0 +1,13 @@
+name = "GlitchCore"
+filename = "GlitchCore-fabric-1.20.6-1.1.0.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/s3dmwKy5/versions/MC3MbOsf/GlitchCore-fabric-1.20.6-1.1.0.10.jar"
+hash-format = "sha1"
+hash = "608f5569dbf681655907c98098679d41a5d89a45"
+
+[update]
+[update.modrinth]
+mod-id = "s3dmwKy5"
+version = "MC3MbOsf"
