@@ -6,6 +6,11 @@ hash = "8e176ca733dd7d87e420d4f5cf180289da6ca2c72ebf7039dce7713db58828ae"
 metafile = true
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "51ac678d3646bcb97e13935ae67d32abbd55def714030b3b3433aa15b4b2c8af"
+metafile = true
+
+[[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "78f2ca6b98277a386dc71645e6e2b8be452b2ed917fa575b604bae77c6d069d3"
 metafile = true
@@ -21,6 +26,36 @@ hash = "7daaf5396b373745929024fc9be8e257efd19ba701d8b24bb4b184fb3656e0b8"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "ccebfd6cc17ecab4450e8aa434fa0a2201b336f71f450d2b4bd85aa7411d1298"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fullbright.pw.toml"
+hash = "e883a8c887d581272fa7ce43d12e199aa297b68771c2ada53cfd462e1503f7da"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "316c9b6fa7e755915125409bd2a0a8b3f732534f794e8db4a5b2feac91ad573e"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "57c91a1102545d755ee320febca4902f12aecb0c562cc7db089823a723365259"
+metafile = true
+
+[[files]]
+file = "mods/fabrishot.pw.toml"
+hash = "9138aef0a4542e5b57ea2bd91453f63f2c1d1e1b0dcced016fab12943dae6b11"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "144c9b2dd530cfdf13dd3757c8eddcf6cfcc9631536dcabdd1378a39c8bdf47b"
+metafile = true
+
+[[files]]
 file = "mods/friends-and-foes.pw.toml"
 hash = "1937820398cd2a46179953923574a5247e3a23ff30e6db42890d64c964ea3f55"
 metafile = true
@@ -31,13 +66,58 @@ hash = "f3089373817a11ea61ba19b742064f74a21cb2974f49e9f20ab3f42671fdc621"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "aa272933fae07ac23521704f6d7367f0ce437d624bf9ce50715c24b43a1f0d9c"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "31278d67704a56eb32d93c240e4bfd9822e1ab6047ee14d752953dd0c24dca95"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "860b83d5fe7aadcefa928fe156d38e46cf171b6102d5691758eb75da3fcdb799"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "f37f5fd3fda8611c289c24ea9ba0e9e9619e9480020d292309c20a08cba64baf"
 metafile = true
 
 [[files]]
+file = "mods/lithium.pw.toml"
+hash = "2600531abea1670221c21edf73d7024cf1285f58bca3a838777f957e5e17f477"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "ce0282aa9a31909cba4c187bbf1ea0df1c0cd6077d21f89130116f6051a8d6ca"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "15af904cfeb2ee20ba0c865bae42dcc7eaea31b18bde9e9f5fb4e4192185566f"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "9d76e9b5d107004c51e91c33404a9e22f03770420e3cf6a49bc1393b6f9fe3c3"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "5c0dfc69736a9d187228e3964f1ae7baf33179f18e7d6862992b874689e49729"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "ad96bd81072a10f638ae343938b819f8ab95e11cbb6147f7a81d2e30a49e115a"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "eccb94f189b1243a3822a449202cc2a8fd8c8c21d4325ceccf1382862a6a095f"
 metafile = true
 
 [[files]]
@@ -51,13 +131,38 @@ hash = "f720ff14754b9b1a0bfc9e32438f971cd0f6841f1ff49c885154aed59a9bc1af"
 metafile = true
 
 [[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "4ee672430cb4b83082e6f500ebb22693cf18fc872f6d78a6ad580a95c293274b"
+metafile = true
+
+[[files]]
 file = "mods/rei.pw.toml"
 hash = "7e8aa0c72efa24bc84206efddef4ba508ac2f7d572f6235b285a53568c3b5d70"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+hash = "e5f0af59a19eeafd5dc0f324ec1936bdd372d15328c7567c564b4e89e576d986"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "44a5de1ad7f56e021d67f7fd904d9bf0c41e29c74fdbe55ba551758036ef88cc"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "115a89810ba6b5e00365b3733dd2ed03bb6e9aee3bdc49714cd897a153146d8a"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "d87b6b7567ed68eb8c4db3406c84c2417beb58dc630f2f1507b85294f5c5cdcf"
+metafile = true
+
+[[files]]
+file = "mods/threadtweak.pw.toml"
+hash = "f937ca0de07e36477286eebbd0b592920b5d8c76c0422d27bd2303732061bf5e"
 metafile = true
 
 [[files]]
@@ -68,4 +173,14 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "08d3dd914a003e402612bfeb60bcb31e5060d07058be7c691faa44413c182f57"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "9f0a887889e390392d33f7f2c53fd28fd58a86a84125ff5d23181fae6594f17f"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "eb4f030ceb44204f79ccf4c2ac9a3f243260c85aaabc30a7961ca33b60991b2f"
 metafile = true
