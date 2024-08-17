@@ -19,3 +19,8 @@ Pastelpink is distributed here on GitHub, under the "Releases" section. Download
 and install it into either [Prism Launcher](https://prismlauncher.org/) or the [Modrinth App](https://modrinth.com/app).
 
 Further instructions can be found in the [documentation](https://pastelpink-modpack.readthedocs.io/en/latest)
+
+## License
+
+The documentation (under the `docs` directory) is licensed under CC0-1.0. Everything else is all rights reserved.
+To the friends that know about this modpack, I already have granted you permission.
