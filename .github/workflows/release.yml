@@ -1,3 +1,4 @@
+# Based off of Rodhaj's release pipelines: https://github.com/transprogrammer/rodhaj/blob/main/.github/workflows/release.yml
 name: Release
 on:
   push:
