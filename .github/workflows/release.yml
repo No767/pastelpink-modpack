@@ -1,0 +1,75 @@
+# Based off of Rodhaj's release pipelines: https://github.com/transprogrammer/rodhaj/blob/main/.github/workflows/release.yml
+name: Release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Bundle:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, '#major') || contains(github.event.head_commit.message, '#minor') || contains(github.event.head_commit.message, '#patch')
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+            go-version: 1.22
+
+      - name: Install Packwiz
+        run: |
+            go install github.com/packwiz/packwiz@latest
+
+      - name: Build Modpack
+        run: |
+            mkdir -p releases
+            packwiz modrinth export
+  
+      - name: Bundle docker-related files
+        run: |
+            cp *.mrpack releases/
+  
+      - name: Upload bundle
+        uses: actions/upload-artifact@v4
+        with:
+          path: releases
+  
+
+  Release:
+    runs-on: ubuntu-latest
+    needs: Bundle
+    if: contains(github.event.head_commit.message, '#major') || contains(github.event.head_commit.message, '#minor') || contains(github.event.head_commit.message, '#patch')
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: '0'
+
+    - name: Get Previous Tag
+      uses: WyriHaximus/github-action-get-previous-tag@v1
+      id: prev_tag
+      with:
+        fallback: v0.1.0
+
+    - name: Download Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: artifact
+        path: releases
+
+    - name: Bump version and push tag
+      uses: anothrNick/github-tag-action@1.67.0
+      id: tag_version
+      env:
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        WITH_V: true
+        RELEASE_BRANCHES: main
+        
+    - name: Release New Version
+      uses: ncipollo/release-action@v1
+      with:
+        body: "https://github.com/No767/pastelpink-modpack/compare/${{ steps.prev_tag.outputs.tag }}...${{ steps.tag_version.outputs.new_tag }}"
+        token: ${{ secrets.PAT_TOKEN }}
+        tag: ${{ steps.tag_version.outputs.new_tag }}
+        name: ${{ steps.tag_version.outputs.new_tag }}
+        artifacts: "releases/*.mrpack"
