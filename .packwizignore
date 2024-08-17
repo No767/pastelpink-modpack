@@ -6,3 +6,6 @@
 
 # Documentation
 docs/
+
+# RTD config files
+.readthedocs.yaml
