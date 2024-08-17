@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/release.yml"
+hash = "c5e904250fb33c25ff39894da30ba4d0e561d73172b0c0097d43c1bdc32f5965"
+
+[[files]]
+file = "README.md"
+hash = "a0e920f13671034e2da3e60de096c9e6e78b2fe502ae35afdd695273f383fff8"
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "8e176ca733dd7d87e420d4f5cf180289da6ca2c72ebf7039dce7713db58828ae"
 metafile = true
@@ -24,6 +32,10 @@ metafile = true
 file = "mods/cloth-config.pw.toml"
 hash = "7daaf5396b373745929024fc9be8e257efd19ba701d8b24bb4b184fb3656e0b8"
 metafile = true
+
+[[files]]
+file = "mods/config/betterf3.json"
+hash = "6444702fa4feadd413971f91f3a61493d63da2e69c294c9677684791f39b21e4"
 
 [[files]]
 file = "mods/controlling.pw.toml"
